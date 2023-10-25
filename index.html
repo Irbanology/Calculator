@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cantainer">
+        <h1 style="text-align: center; font-size: 17px;">Calculator By Irban</h1>
+        <div>
+            <input readonly id="inputnode" type="text" placeholder="0">
+        </div>
+        <div class="first">
+            <button onclick="ac()" class="btn1">Ac</button>
+            <button onclick="del()" class="btn2">Del</button>
+        </div>
+        <div>
+            <button onclick="dbao(7)">7</button>
+            <button onclick="dbao(8)">8</button>
+            <button onclick="dbao(9)">9</button>
+            <button class="op" onclick="dbao('*')">x</button>
+        </div>
+        <div>
+            <button onclick="dbao(4)">4</button>
+            <button onclick="dbao(5)">5</button>
+            <button onclick="dbao(6)">6</button>
+            <button class="op" onclick="dbao('/')">/</button>
+        </div>
+        <div>
+            <button onclick="dbao(1)">1</button>
+            <button onclick="dbao(2)">2</button>
+            <button onclick="dbao(3)">3</button>
+            <button class="op" onclick="dbao('+')">+</button>
+        </div>
+        <div>
+            <button onclick="dbao(0)">0</button>
+            <button onclick="dbao('.')">.</button>
+            <button class="op" onclick="dbao('-')">-</button>
+            <button class="op" onclick="equal()">=</button>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
